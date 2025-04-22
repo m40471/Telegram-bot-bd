@@ -2,7 +2,7 @@ from flask import Flask, request, render_template
 import telegram
 
 app = Flask(__name__)
-bot = telegram.Bot(token='YOUR_BOT_TOKEN')  # এখানে তোমার টেলিগ্রাম বট টোকেন বসাও
+bot = telegram.Bot(token='7825700186:AAH4FX6mkypCcel3_zZQVBVHiCFMG_clGOU')  # এখানে তোমার টেলিগ্রাম বট টোকেন বসাও
 
 @app.route('/')
 def index():
